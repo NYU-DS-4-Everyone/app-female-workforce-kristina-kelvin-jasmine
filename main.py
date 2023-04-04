@@ -70,7 +70,7 @@ df = pd.read_csv("Dataset_LaborPart3.csv")
 app_mode = st.sidebar.selectbox('Select Page',['Summary 🚀','Visualization 📊','Prediction 📈'])
 
 if app_mode == 'Summary 🚀':
-    st.subheader("01 Summary Page - Spotify Data Analysis 🚀")
+    st.subheader("01 Summary Page🚀")
 
     st.info("Women make up **51% of the global population**. Yet, they have been chronically **underrepresented in the labor force**. This has led to the **lack of female autonomy** both in the public and the private life. ")
     st.info("Given this context, it is imperative that the causes behind the varying levels of female labor force participation rate be studied and understood. Only so the **right policy decisions** can be guided toward solving this issue.")
